@@ -6,7 +6,7 @@
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 }
-.card{
+.card-login{
 	width: 300px;
 	border-radius: 20px !important;
 	border-color: black !important;

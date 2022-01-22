@@ -1,0 +1,35 @@
+.register{
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.card-register{
+	width: 500px;
+	border-radius: 20px !important;
+	border-color: black !important;
+	box-shadow: 5px 8px 24px 5px rgba(208, 216, 243, 0.6);
+}
+.input{
+	border-color: black !important;
+}
+.button-register{
+	background-color: #FFBD00 !important;
+	width: 100px;
+	font-weight: bold !important;
+}
+.logo-img-small{
+	width: 5em;
+	height: 5em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.ant-form-item-label label{
+	font-weight: bold;
+ }
+ .form-register{
+	 margin: 0 25px !important;
+ }
