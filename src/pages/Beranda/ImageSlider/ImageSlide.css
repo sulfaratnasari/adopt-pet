@@ -1,0 +1,28 @@
+.slider{
+    text-align: center;
+    margin-top:5rem;
+    position: relative;
+    margin-bottom: 1.5rem;
+
+}
+.right-arrow {
+    position: absolute;
+    top: 50%;
+    right: 20rem;
+    font-size: 1.5rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+  
+.left-arrow {
+    position: absolute;
+    top: 50%;
+    left: 20rem;
+    color: #000;
+    font-size: 1.5rem;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
