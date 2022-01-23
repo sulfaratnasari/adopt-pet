@@ -1,6 +1,7 @@
 import React from "react";
 import dataPets from "./FeaturedData";
 
+
 import './Featured.css'
 
 function Feature() {
@@ -12,7 +13,7 @@ function Feature() {
         {dataPets.map((pets) => {
           return (
             <div className="feature-item">
-              <img src={pets.image} style={{width:'10rem', height:'11rem'}}/>
+              <img src={pets.image} style={{width:'10rem', height:'11rem', borderRadius:'10px 10px 0px 0px'}}/>
               <h4>{pets.name}, <span>{pets.sex}</span></h4>
               <p>{pets.age} old</p>
               <p> Brider: {pets.brider}</p>
