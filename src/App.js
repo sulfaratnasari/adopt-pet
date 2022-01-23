@@ -5,6 +5,7 @@ import BerandaAdoptPets from "../src/pages/Beranda/Beranda";
 import Login from "./pages/Login/Login";
 import Register from "./pages/Register/Register";
 import PetDescription from "./pages/PetDesciption/PetDescription";
+import AboutUs from "./pages/AboutUs/AboutUs";
 import "./App.css";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path="/register" element={<Register />} />
           <Route path="/" exact element={<BerandaAdoptPets />} />
           <Route path="/description" element={<PetDescription />}/>
+          <Route path="/aboutus" element={<AboutUs />}/>
         </Routes>
       </Router>
     </div>
