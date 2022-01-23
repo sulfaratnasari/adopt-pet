@@ -1,13 +1,10 @@
 import React from "react";
 
+import './Footer.css'
+
 function Footer() {
   return (
-    <div>
-      <ul>
-        <li>Instagram</li>
-        <li>Facebook</li>
-        <li>Twitter</li>
-      </ul>
+    <div className="footer">
     </div>
   );
 }
