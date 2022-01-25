@@ -7,6 +7,7 @@ import Register from "./pages/Register/Register";
 import PetDescription from "./pages/PetDesciption/PetDescription";
 import AboutUs from "./pages/AboutUs/AboutUs";
 import SearchPet from "./pages/SearchPet/SearchPet";
+import SearchRehomePet from "./pages/SearchPet/SearchRehomePet";
 import "./App.css";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/description" element={<PetDescription />}/>
           <Route path="/aboutus" element={<AboutUs />}/>
           <Route path="/searchpet" element={<SearchPet />}/>
+          <Route path="/searchrehomepet" element={<SearchRehomePet />}/>
         </Routes>
       </Router>
     </div>
