@@ -7,7 +7,10 @@ import Register from "./pages/Register/Register";
 import PetDescription from "./pages/PetDesciption/PetDescription";
 import AboutUs from "./pages/AboutUs/AboutUs";
 import SearchPet from "./pages/SearchPet/SearchPet";
-import SearchRehomePet from "./pages/SearchPet/SearchRehomePet";
+import RehomePet from "./pages/RehomePet/RehomePet";
+import LostAndFound from "./pages/LostandFound/LostAndFound";
+import FormLostPets from "./pages/LostandFound/FormPetLost";
+import FormFoundPets from "./pages/LostandFound/FormPetFound";
 import "./App.css";
 
 function App() {
@@ -21,7 +24,10 @@ function App() {
           <Route path="/description" element={<PetDescription />}/>
           <Route path="/aboutus" element={<AboutUs />}/>
           <Route path="/searchpet" element={<SearchPet />}/>
-          <Route path="/searchrehomepet" element={<SearchRehomePet />}/>
+          <Route path="/rehomepet" element={<RehomePet />}/>
+          <Route path="/lostandfound" element={<LostAndFound />}/>
+          <Route path="/formlost" element={<FormLostPets />}/>
+          <Route path="/formFound" element={<FormFoundPets />}/>
         </Routes>
       </Router>
     </div>
