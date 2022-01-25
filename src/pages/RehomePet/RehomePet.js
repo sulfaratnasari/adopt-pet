@@ -3,14 +3,14 @@ import { Row, Col, Input, Button } from "antd";
 import PageLayout from "../Layout.js/PageLayout";
 import dataPets from "../Beranda/FeaturedData";
 
-import "./SearchPet.css";
+import "../SearchPet/SearchPet.css";
 
-const SearchRehomePet = () => {
+const RehomePet = () => {
   return (
     <PageLayout>
-      <div style={{ height: "88.8vh", padding:'0 0.5rem' }}>
+      <div style={{ height: "88.8vh", padding: "0 0.5rem" }}>
         <div className="search-pet">
-          <Row >
+          <Row>
             <Col className="col-left">
               <Input placeholder="Jenis Peliharaan" />
             </Col>
@@ -49,4 +49,4 @@ const SearchRehomePet = () => {
   );
 };
 
-export default SearchRehomePet;
+export default RehomePet;
