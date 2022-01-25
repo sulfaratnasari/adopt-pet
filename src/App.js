@@ -6,6 +6,7 @@ import Login from "./pages/Login/Login";
 import Register from "./pages/Register/Register";
 import PetDescription from "./pages/PetDesciption/PetDescription";
 import AboutUs from "./pages/AboutUs/AboutUs";
+import SearchPet from "./pages/SearchPet/SearchPet";
 import "./App.css";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path="/" exact element={<BerandaAdoptPets />} />
           <Route path="/description" element={<PetDescription />}/>
           <Route path="/aboutus" element={<AboutUs />}/>
+          <Route path="/searchpet" element={<SearchPet />}/>
         </Routes>
       </Router>
     </div>
