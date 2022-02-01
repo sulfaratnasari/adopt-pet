@@ -2,13 +2,19 @@ import React from "react";
 import { Form, Input, Button, Space, Card } from "antd";
 import "./Login.css";
 import logo from "../../componets/Images/logo.png";
+import { useNavigate } from "react-router-dom";
 
 const Login = () => {
+  const navigate = useNavigate();
+  const handleRegisterBtn= ()=>{
+    navigate('/register')
+
+  }
   return (
     <div className="login">
       <Card className="card-login">
         <div className="btn-register">
-          <Button type="text">Register</Button>
+          <Button type="text" onClick={handleRegisterBtn}>Register</Button>
         </div>
         <img src={logo} className="logo-img-small" />
         <Form

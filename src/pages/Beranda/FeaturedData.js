@@ -8,6 +8,8 @@ const dataPets = [
       age: "1",
       sex: "male",
       brider: "x",
+      type: 'cat',
+      description: 'xxx'
     },
     {
       id: "2",
@@ -16,6 +18,8 @@ const dataPets = [
       age: "1",
       sex: "male",
       brider: "x",
+      type: 'cat',
+      description: 'yyy'
     },
     {
       id: "3",
@@ -24,6 +28,8 @@ const dataPets = [
       age: "1",
       sex: "male",
       brider: "x",
+      type: 'cat',
+      description: 'zzz'
     },
     {
       id: "4",
@@ -32,6 +38,8 @@ const dataPets = [
       age: "1",
       sex: "male",
       brider: "x",
+      type: 'cat',
+      description: 'aaa'
     },
     {
       id: "5",
@@ -40,6 +48,8 @@ const dataPets = [
       age: "1",
       sex: "male",
       brider: "x",
+      type: 'cat',
+      description: 'bbb'
     },
     {
       id: "6",
@@ -48,6 +58,8 @@ const dataPets = [
       age: "1",
       sex: "male",
       brider: "x",
+      type: 'cat',
+      description: 'ccc'
     },
   ];
 
