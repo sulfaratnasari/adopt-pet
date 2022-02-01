@@ -6,7 +6,8 @@ import petA from "../../componets/Images/pet/Cat_November_2010-1a.jpg";
 
 const { Text, Title } = Typography;
 
-const PetDescription = () => {
+const PetDescription = (props) => {
+  console.log(props)
   return (
     <PageLayout>
       <div style={{ height: "41rem", display:'flex', alignItems:'center' }}>
@@ -17,12 +18,11 @@ const PetDescription = () => {
           </div>
           <div className="description-text" style={descriptionText}>
             
-            <Title style={title}>Name Pet</Title>
-            <Text style={text}>Jenis : Kucing/Menkun</Text>
-            <Text style={text}>Umur : 2 tahun</Text>
-            <Text style={text}>Warna: Gold/ and white</Text>
+            <Title style={title}>{props.name}</Title>
+            <Text style={text}>Jenis : {props.type}</Text>
+            <Text style={text}>Umur : {props.age} - {props.sex}</Text>
             <Text style={{paddingTop:'1rem',fontSize:'0.9rem'}}>Deskripsi:</Text>
-            <Text style={text}>kucing lucu banget</Text>
+            <Text style={text}>{props.description}</Text>
           </div>
           </div>
           <div className="description-Btn" style={button}>
